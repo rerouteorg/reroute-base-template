@@ -6,7 +6,7 @@
 
 A minimal, production-ready Cookiecutter template for building FastAPI applications with REROUTE's intuitive file-based routing system.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![REROUTE](https://img.shields.io/badge/REROUTE-0.4.0%2B-green.svg)](https://github.com/cbsajan/reroute)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org)
 
@@ -66,7 +66,7 @@ app/routes/
 pip install reroute[fastapi]
 
 # Create a new project
-reroute init myapi --template gh:cbsajan/reroute-base
+reroute init myapi --template gh:rerouteorg/reroute-base-template
 
 # Navigate and run
 cd myapi
@@ -85,7 +85,7 @@ Interactive API docs: http://localhost:7376/docs
 pip install cookiecutter
 
 # Generate project
-cookiecutter gh:cbsajan/reroute-base
+cookiecutter gh:rerouteorg/reroute-base-template
 
 # Follow the prompts
 cd myapi
@@ -100,10 +100,10 @@ python main.py
 pip install reroute[fastapi]
 
 # Create a new project using this template
-reroute init myproject --template gh:cbsajan/reroute-base
+reroute init myproject --template gh:rerouteorg/reroute-base-template
 
 # Or with custom options
-reroute init myproject --template gh:cbsajan/reroute-base --database postgresql
+reroute init myproject --template gh:rerouteorg/reroute-base-template --database postgresql
 ```
 
 ### Via Cookiecutter Directly
@@ -113,7 +113,7 @@ reroute init myproject --template gh:cbsajan/reroute-base --database postgresql
 pip install cookiecutter
 
 # Create a new project
-cookiecutter gh:cbsajan/reroute-base
+cookiecutter gh:rerouteorg/reroute-base-template
 ```
 
 ## Template Variables
