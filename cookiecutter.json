@@ -1,4 +1,7 @@
 {
+  "_requirements": {
+    "database": "optional"
+  },
   "project_name": "myapi",
   "description": "My API",
   "author_name": "Your Name",
