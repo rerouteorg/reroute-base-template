@@ -394,4 +394,4 @@ Contributions welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-Apache-2.0 © [Sajan](https://github.com/cbsajan)
+MIT [Sajan](https://github.com/cbsajan)
