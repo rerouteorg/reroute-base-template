@@ -1,11 +1,9 @@
 {
   "project_name": "myapi",
   "description": "My API",
-  "framework": "fastapi",
-  "host": "0.0.0.0",
-  "port": 7376,
-  "reload": true,
-  "include_tests": "Yes",
-  "database": "none",
-  "package_manager": "uv"
+  "author_name": "Your Name",
+  "author_email": "you@example.com",
+  "include_tests": true,
+  "include_database": false,
+  "database_type": "none"
 }

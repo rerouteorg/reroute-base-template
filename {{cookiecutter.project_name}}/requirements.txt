@@ -7,25 +7,25 @@ reroute
 # Web Framework
 fastapi
 uvicorn[standard]
-{% if cookiecutter.database != 'none' %}
+{% if cookiecutter.database_type != 'none' %}
 
 # Database
-{% if cookiecutter.database == 'postgresql' %}psycopg2-binary
+{% if cookiecutter.database_type == 'postgresql' %}psycopg2-binary
 sqlalchemy
 alembic
-{% elif cookiecutter.database == 'mysql' %}pymysql
+{% elif cookiecutter.database_type == 'mysql' %}pymysql
 sqlalchemy
 alembic
-{% elif cookiecutter.database == 'sqlite' %}sqlalchemy
+{% elif cookiecutter.database_type == 'sqlite' %}sqlalchemy
 alembic
-{% elif cookiecutter.database == 'mongodb' %}pymongo
+{% elif cookiecutter.database_type == 'mongodb' %}pymongo
 motor
 {% endif %}
 
 # Environment Management
 python-dotenv
 {% endif %}
-{% if cookiecutter.include_tests == 'Yes' %}
+{% if cookiecutter.include_tests == true %}
 
 # Testing
 pytest
